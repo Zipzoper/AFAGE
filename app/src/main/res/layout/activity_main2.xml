@@ -1,10 +1,70 @@
-<?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/main"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".MainActivity2">
+    android:layout_height="match_parent">
+
+    <!-- Imagem 1 no topo esquerdo -->
+
+    <!-- Imagem 2 no centro -->
+
+    <!-- Imagem 3 no canto inferior direito -->
+
+    <ImageView
+        android:id="@+id/image_urso"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="184dp"
+        android:contentDescription="Imagem do urso"
+        android:src="@drawable/urso"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/image_urubu"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:contentDescription="Imagem do urubu"
+        android:src="@drawable/urubu"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.051"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.47" />
+
+    <ImageView
+        android:id="@+id/image_oculos"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginEnd="292dp"
+        android:layout_marginBottom="212dp"
+        android:contentDescription="Imagem de óculos"
+        android:src="@drawable/oculos"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <ImageView
+        android:id="@+id/image_estrela"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="444dp"
+        android:contentDescription="Imagem da estrela"
+        android:src="@drawable/estrela"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <ImageView
+        android:id="@+id/image_espelho"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="332dp"
+        android:contentDescription="Imagem do espelho"
+        android:src="@drawable/espelho"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
